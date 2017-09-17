@@ -125,3 +125,4 @@ if [ "$TERM" != "linux" ]; then
 fi
 
 export PATH="$HOME/.cabal/bin:/opt/cabal/1.22/bin:/opt/ghc/7.10.3/bin:$PATH"
+export GPG_TTY=$(tty)
